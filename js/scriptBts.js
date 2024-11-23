@@ -387,7 +387,7 @@ $(document).ready(function (){
     if (data) {
       let text = `Yangi Foydalanuvchi! 
 %0A%0AIsm: ${name}
-%0ATelefon: ${phone} 
+%0AUlanish: ${phone} 
 %0AQaysi formadan: ${type} 
 %0AMa\'lumotlar: ${data}
 
@@ -398,7 +398,7 @@ $(document).ready(function (){
     } else {
       let text = `Yangi Foydalanuvchi! 
 %0A%0AIsm: ${name}
-%0ATelefon: ${phone}
+%0AUlanish: ${phone}
 %0AQaysi formadan: ${type}
 
 %0A%0ATezroq qong'iroq qiling! Xaridor sizning qong'iroq qilishingizni kutmoqda!`;
